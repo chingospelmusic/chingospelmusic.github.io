@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.button_1 {
+    height: 40px;
+    background: lawngreen;
+    color: #35424a;
+    padding: 0 20px 0 20px;
+    border: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d solid 3px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul a:hover {
+    color: greenyellow;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url('img/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 40px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 32%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#boxes .box img {
+    width: 450px;
+}
+
+#boxes .box img:hover{
+    opacity: 0.5;
+
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: #35424a;
+    text-align: center;
+}
+
+/*Lyric page*/
+
+/*audio*/
+#lyrics audio {
+    margin-bottom: 10px;
+    padding:0;
+    width: 100%;
+    background: #35424a;
+
+}
+
+
+
+/*artist page*/
+#artists .artist {
+    float: left;
+    text-align: center;
+    width: 32%;
+    padding: 10px;}
+
+#artists .container {
+    background: #35424a;
+}
+#artists {
+    margin-top: 20px;
+}
+
+#artists .artist img {
+    margin-top: 10px;
+}
+
+#artists .artist img:hover {
+    transform: scaleX(1.1);
+    opacity: 0.8;
+}
+
+#artists .hlabu a
+{
+    width: 80%;
+    float: left;
+    color: #e8491d;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+#artists .hlabu h3{
+    margin: 0;
+}
+
+/*about page*/
+
+#about .main-cols
+{
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#about .main-cols a
+{
+    margin-right: 20px;
+    
+}
+
+#about .main-cols a:hover
+{
+    opacity: 0.5;
+}
